@@ -10,7 +10,7 @@ PivotTables → PivotCharts → business insights.
   automatically if the source data changes
 - **PivotTables** — three PivotTables summarizing 20 orders by Product,
   District, and Salesperson
-- **PivotCharts** — native Excel charts linked directly to each PivotTable
+- **PivotCharts** — Excel charts linked directly to each PivotTable
 - **COUNTIF / SUM** — conditional counting and totals (e.g. total orders
   for a specific product or district)
 - **Multi-sheet workbook structure** — a clean, navigable workbook (Cover
