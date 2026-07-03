@@ -50,12 +50,6 @@ PivotTables → PivotCharts → business insights.
 - **Profit by product:** Envelopes were the most profitable line (£150
   total margin), while Fasteners were the least (£50).
 
-## Presentation
-
-A short management-style summary of these findings is included in
-[`presentation/Sales_Profit_Presentation.pptx`](presentation/Sales_Profit_Presentation.pptx),
-translating the Excel analysis into a business-facing recommendation deck.
-
 ## Tools used
 
 Microsoft Excel — formulas, PivotTables, and PivotCharts only. No external
