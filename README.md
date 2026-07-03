@@ -49,22 +49,7 @@ Total Envelope orders  =COUNTIF(G3:G22,"Envelopes")
 Total London orders    =COUNTIF(F3:F22,"London")
 ```
 
-## Screenshots
 
-**Raw data with formula-driven Profit & Predicted Profit columns**
-![Raw data and formulas](screenshots/01_raw_data_and_formulas.png)
-
-**PivotTable & PivotChart — Quantity sold by product**
-![Products pivot](screenshots/02_pivot_products.png)
-
-**PivotTable & PivotChart — Quantity sold by salesperson**
-![Salesperson pivot](screenshots/03_pivot_salesperson.png)
-
-**PivotTable & PivotChart — Quantity sold by district**
-![District pivot](screenshots/04_pivot_district.png)
-
-**Consolidated Pivot Table sheet**
-![Pivot table sheet](screenshots/05_pivot_table_sheet.png)
 
 ## Key insights
 
