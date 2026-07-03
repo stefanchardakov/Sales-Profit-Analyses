@@ -31,24 +31,6 @@ PivotTables → PivotCharts → business insights.
 | District | PivotTable + PivotChart: total quantity sold by district |
 | Pivot Table | Consolidated pivot view of the full dataset |
 
-## Formulas used
-
-The two calculated columns on the **Data** sheet are built with cell
-references, not typed-in numbers:
-
-```
-Profit                = Selling Price − Cost Price
-                       e.g. K3:  =I3-H3
-
-Predicted Profit 10%  = (Selling Price × 1.1) − Cost Price
-                       models the effect of a 10% price increase
-                       e.g. L3:  =(I3*1.1)-H3
-
-Total Profit           =SUM(K3:K22)
-Total Envelope orders  =COUNTIF(G3:G22,"Envelopes")
-Total London orders    =COUNTIF(F3:F22,"London")
-```
-
 
 
 ## Key insights
