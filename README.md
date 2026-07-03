@@ -18,20 +18,6 @@ PivotTables → PivotCharts → business insights.
   Page → Data → Products → SalesPerson → District → Pivot Table)
 - **Currency and number formatting** for a professional, readable layout
 
-## The workbook
-
-📄 [`Sales_Profit_Analysis.xlsx`](Sales_Profit_Analysis.xlsx)
-
-| Sheet | What it contains |
-|---|---|
-| Cover Page | Title page for the workbook |
-| Data | 20 raw sales orders plus two calculated columns (`Profit`, `Predicted Profit 10%`) |
-| Products | PivotTable + PivotChart: total quantity sold by product |
-| SalesPerson | PivotTable + PivotChart: total quantity sold by salesperson |
-| District | PivotTable + PivotChart: total quantity sold by district |
-| Pivot Table | Consolidated pivot view of the full dataset |
-
-
 
 ## Key insights
 
