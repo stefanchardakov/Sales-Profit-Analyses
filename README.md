@@ -2,8 +2,7 @@
 # Sales & Profit Performance Analysis — Excel Project
 
 An end-to-end Excel data analysis project: raw sales data → formulas →
-PivotTables → PivotCharts → business insights. Built to demonstrate
-practical Excel data analytics skills for an internship application.
+PivotTables → PivotCharts → business insights. 
 
 ## Skills demonstrated
 
