@@ -37,10 +37,10 @@ PivotTables → PivotCharts → business insights.
 
 - **Quantity sold:** Paper (29 units) sold the most overall, followed
   closely by Folders (27) and Fasteners (26).
-- **By district:** Leeds recorded the highest quantity sold (32), followed
+- **Profit by district:** Leeds recorded the highest quantity sold (32), followed
   by Cardiff (23) and Birmingham (21). Bristol (2) and Liverpool (6) were
   lowest.
-- **By salesperson:** Gareth Evans led in units sold (25), with Alison
+- **Profit by salesperson:** Gareth Evans led in units sold (25), with Alison
   Smith (21) and Hadyn Jones (17) also performing strongly.
 - **Profit by district:** London generated the highest total profit (£130),
   while Bristol generated the least (£20).
