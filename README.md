@@ -1,4 +1,3 @@
-# Sales-Profit-Analyses
 # Sales & Profit Performance Analysis — Excel Project
 
 An end-to-end Excel data analysis project: raw sales data → formulas →
