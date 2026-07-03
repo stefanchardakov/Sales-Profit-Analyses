@@ -1,1 +1,96 @@
 # Sales-Profit-Analyses
+# Sales & Profit Performance Analysis — Excel Project
+
+An end-to-end Excel data analysis project: raw sales data → formulas →
+PivotTables → PivotCharts → business insights. Built to demonstrate
+practical Excel data analytics skills for an internship application.
+
+## Skills demonstrated
+
+- **Formula-driven calculations** — derived fields built with cell
+  references (not hardcoded values), so the whole workbook recalculates
+  automatically if the source data changes
+- **PivotTables** — three PivotTables summarizing 20 orders by Product,
+  District, and Salesperson
+- **PivotCharts** — native Excel charts linked directly to each PivotTable
+- **COUNTIF / SUM** — conditional counting and totals (e.g. total orders
+  for a specific product or district)
+- **Multi-sheet workbook structure** — a clean, navigable workbook (Cover
+  Page → Data → Products → SalesPerson → District → Pivot Table)
+- **Currency and number formatting** for a professional, readable layout
+
+## The workbook
+
+📄 [`Sales_Profit_Analysis.xlsx`](Sales_Profit_Analysis.xlsx)
+
+| Sheet | What it contains |
+|---|---|
+| Cover Page | Title page for the workbook |
+| Data | 20 raw sales orders plus two calculated columns (`Profit`, `Predicted Profit 10%`) |
+| Products | PivotTable + PivotChart: total quantity sold by product |
+| SalesPerson | PivotTable + PivotChart: total quantity sold by salesperson |
+| District | PivotTable + PivotChart: total quantity sold by district |
+| Pivot Table | Consolidated pivot view of the full dataset |
+
+## Formulas used
+
+The two calculated columns on the **Data** sheet are built with cell
+references, not typed-in numbers:
+
+```
+Profit                = Selling Price − Cost Price
+                       e.g. K3:  =I3-H3
+
+Predicted Profit 10%  = (Selling Price × 1.1) − Cost Price
+                       models the effect of a 10% price increase
+                       e.g. L3:  =(I3*1.1)-H3
+
+Total Profit           =SUM(K3:K22)
+Total Envelope orders  =COUNTIF(G3:G22,"Envelopes")
+Total London orders    =COUNTIF(F3:F22,"London")
+```
+
+## Screenshots
+
+**Raw data with formula-driven Profit & Predicted Profit columns**
+![Raw data and formulas](screenshots/01_raw_data_and_formulas.png)
+
+**PivotTable & PivotChart — Quantity sold by product**
+![Products pivot](screenshots/02_pivot_products.png)
+
+**PivotTable & PivotChart — Quantity sold by salesperson**
+![Salesperson pivot](screenshots/03_pivot_salesperson.png)
+
+**PivotTable & PivotChart — Quantity sold by district**
+![District pivot](screenshots/04_pivot_district.png)
+
+**Consolidated Pivot Table sheet**
+![Pivot table sheet](screenshots/05_pivot_table_sheet.png)
+
+## Key insights
+
+- **Quantity sold:** Paper (29 units) sold the most overall, followed
+  closely by Folders (27) and Fasteners (26).
+- **By district:** Leeds recorded the highest quantity sold (32), followed
+  by Cardiff (23) and Birmingham (21). Bristol (2) and Liverpool (6) were
+  lowest.
+- **By salesperson:** Gareth Evans led in units sold (25), with Alison
+  Smith (21) and Hadyn Jones (17) also performing strongly.
+- **Profit by district:** London generated the highest total profit (£130),
+  while Bristol generated the least (£20).
+- **Profit by salesperson:** Gareth Evans also led in profit (£100), while
+  three salespeople tied for lowest (£20 each) — a possible coaching
+  opportunity.
+- **Profit by product:** Envelopes were the most profitable line (£150
+  total margin), while Fasteners were the least (£50).
+
+## Presentation
+
+A short management-style summary of these findings is included in
+[`presentation/Sales_Profit_Presentation.pptx`](presentation/Sales_Profit_Presentation.pptx),
+translating the Excel analysis into a business-facing recommendation deck.
+
+## Tools used
+
+Microsoft Excel — formulas, PivotTables, and PivotCharts only. No external
+scripts or libraries were used to produce the analysis.
